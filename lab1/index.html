@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* تصفير هوامش الصفحة بالكامل لضمان الالتصاق بالحافة */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* تنسيقات الواجب المطلوبة */
+        .style1 { color: red; text-align: center; }
+        
+        .style2 { 
+            color: green; 
+            font-size: 16px; 
+            font-weight: bold; 
+            font-family: 'Cambria', serif; 
+        }
+
+        .style3 { font-size: 14px; }
+
+        .style4 { 
+            width: 250px; 
+            height: 250px; 
+        }
+
+        /* الحاوية الرئيسية ممتدة للنهاية */
+        .parent {
+            display: flex;
+            justify-content: space-between; /* النص يسار والصورة يمين */
+            align-items: flex-start;
+            width: 100%; /* العرض الكامل للمتصفح */
+            margin-top: 30px;
+        }
+
+        .info {
+            text-align: left; /* محاذاة النص لليسار */
+            padding-left: 0;  /* إلغاء أي فراغ من جهة اليسار */
+            margin-left: 0;   /* إلغاء الهامش من جهة اليسار */
+        }
+
+        /* لتنظيم المسافة بين الأسطر */
+        .info p {
+            margin: 10px 0;
+        }
+        .img-container{
+            display: inline;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h1>Welcome to my Web Site</h1>
+        <h3 class="style1"><u>Web Development (Lab1)</u></h3>
+    </center>
+
+    <div class="parent">
+        <div class="info">
+            <p class="style3"><span class="style2">Full name:</span> Akram Adaika</p>
+            <p class="style3"><span class="style2">Age:</span> 20 years old</p>
+            <p class="style3"><span class="style2">Class:</span> 2<sup>nd</sup> LMD computer Science</p>
+            <p class="style3"><span class="style2">University:</span> University of EL OUED</p>
+        </div>
+
+        <div class="img-container">
+            <img src="image.jpg" class="style4" alt="Image">
+        </div>
+    </div>
+
+</body>
+</html>
