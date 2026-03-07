@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 1rem;
+}
+
+.course-row input,
+.course-row select {
+    border-radius: 8px;
+}
+
+.progress {
+    border-radius: 15px;
+    background-color: #dee2e6;
+}
+
+.progress-bar {
+    border-radius: 15px;
+    transition: width 0.8s ease, background-color 0.5s ease;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+.badge {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+#exportCSV {
+    border-radius: 8px;
+}
+
+.btn {
+    border-radius: 8px;
+}
